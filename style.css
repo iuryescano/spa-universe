@@ -19,6 +19,87 @@
 }
 
 .background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
     display: block;
-    margin: 0 auto;
+    margin: 0;
+    background-size: auto;
 }
+
+.exploration {
+    position: relative;
+    height: 12.2rem;
+    padding: 5rem;
+    display: flex;
+    gap: 3.2rem;
+    font-family: 'roboto', sans-serif;
+    font-size: 2.4rem;
+    
+    
+}
+
+.home{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text {
+    color: var(--text-color-second);
+    text-decoration: none;
+}
+
+.icon {
+    width: 4.9rem;
+    height: 4.2rem;
+    margin-top: -0.6rem;
+}
+
+.mainHome {
+    position: relative;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 78vh;
+    gap: 2.5rem;
+}
+
+.textHomeMain{
+    font-size: 4.8rem;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    color: var(--text-color);
+    font-style: normal;
+}
+
+.botao {
+    width: 19.5rem;
+    height: 4.8rem;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    font-family: 'roboto', sans-serif;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.universeMain {
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.hide{
+    display: none;
+  }
