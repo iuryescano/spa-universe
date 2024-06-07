@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+    --text-color: #E1E1E6;
+    --text-color-second: #C4C4CC;
+    --button-color :#FFFFFF;
+    --button-secondary: hsl(194, 97%, 31%, 100%);
+
+    font-size: clamp(40%, 1% + 2vw, 62.5%);
+}
+
+#app{
+
+}
+
+.background {
+    display: block;
+    margin: 0 auto;
+}
