@@ -25,6 +25,7 @@ const botao = document.getElementById('#botao')
 
 const background = document.getElementById('fundo')
 
+
 function trocarImagem(novoSrc) {
   background.src = novoSrc;
 }
@@ -42,3 +43,15 @@ document.getElementById('exploraction').addEventListener('click', () => {
 });
 
 
+/* document.getElementById('botao').addEventListener('click', event => {
+  const route = event.target.getAttribute('data-route');
+  window.history.pushState({}, '', route);
+  router.handle();
+});
+
+document.querySelectorAll('botao[data-route]').forEach(botao => {
+  botao.addEventListener('click', event => {
+      const route = event.target.getAttribute('data-route');
+      window.history.pushState({}, '', route);
+      router.handle();
+    })}) */
